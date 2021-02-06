@@ -1,23 +1,15 @@
-import React from 'react'
+import React from "react";
 
-import './StatusBadge.css'
+import "./StatusBadge.css";
 
-const StatusBadge = ({active, disabled}) => {
+const StatusBadge = ({ active, disabled }) => {
   if (active) {
-    return (
-      <div className="StatusBadge StatusBadge--active">
-        Active
-      </div>
-    )
+    return <div className="StatusBadge StatusBadge--active">Active</div>;
   }
   if (disabled) {
-    return (
-      <div className="StatusBadge StatusBadge--disabled">
-        Disabled
-      </div>
-    )
+    return <div className="StatusBadge StatusBadge--disabled">Disabled</div>;
   }
-  return null
-}
+  return null;
+};
 
-export default StatusBadge
+export default StatusBadge;

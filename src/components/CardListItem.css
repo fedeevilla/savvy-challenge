@@ -3,8 +3,8 @@
   border-radius: 8px;
   background-color: white;
   border: 1px solid transparent;
-  box-shadow: 0px 1px 2px 0px rgba(0,0,0,.08);
-  box-shadow: 0px 1px 3px 0px rgba(0,0,0,.12);
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
   margin-bottom: 20px;
 }
 
@@ -27,14 +27,14 @@
 
 .CardListItem:hover {
   cursor: pointer;
-  background-color: #F7FFFF;
+  background-color: #f7ffff;
 }
 
 .CardListItem--selected {
-  border: 1px solid #06B6D4;
-  background-color: #ECFEFF;
+  border: 1px solid #06b6d4;
+  background-color: #ecfeff;
 }
 
 .CardListItem--selected:hover {
-  background-color: #ECFEFF;
+  background-color: #ecfeff;
 }

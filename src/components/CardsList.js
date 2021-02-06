@@ -1,25 +1,25 @@
-import React from 'react'
-import Skeleton from 'react-loading-skeleton';
-import CardListItem from './CardListItem'
+import React from "react";
+import Skeleton from "react-loading-skeleton";
+import CardListItem from "./CardListItem";
 
-import './CardsList.css'
+import "./CardsList.css";
 
-const CardsList = ({cards, selectedCardId, onClick, isLoading}) => {
+const CardsList = ({ cards, selectedCardId, onClick, isLoading }) => {
   if (isLoading) {
     return (
       <div className="CardsList">
         <Skeleton
           className="CardsList__loadingPlaceholder"
-          height={'90px'}
+          height={"90px"}
           count={3}
         />
       </div>
-    )
+    );
   }
 
   return (
     <div className="CardsList">
-      {cards.map(card => (
+      {cards.map((card) => (
         <CardListItem
           key={card.id}
           name={card.name}
@@ -31,7 +31,7 @@ const CardsList = ({cards, selectedCardId, onClick, isLoading}) => {
         />
       ))}
     </div>
-  )
-}
+  );
+};
 
-export default CardsList
+export default CardsList;

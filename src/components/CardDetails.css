@@ -1,0 +1,32 @@
+.CardDetails__placeholderItem {
+  margin-bottom: 20px;
+}
+
+.CardDetailsInfo {
+  display: flex;
+}
+
+.Status {
+  display: flex;
+  margin-right: 10px;
+}
+
+.StatusContent {
+  display: flex;
+  height: fit-content;
+  align-items: baseline;
+}
+
+.DisableButton {
+  background: transparent;
+  border: 1px solid #d1d5d8;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.CardInformation {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}

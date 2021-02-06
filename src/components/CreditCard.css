@@ -1,0 +1,18 @@
+.Card {
+  width: 300px;
+  border-radius: 8px;
+  background: white;
+  border: 1px solid #d1d5d8;
+  padding: 15px;
+  box-shadow: 0px 8px 0px 0px #d1d5d8;
+}
+
+.ContentCard {
+  padding: 5px;
+  width: 200px;
+}
+
+.ExpiredInformation {
+  display: flex;
+  justify-content: space-between;
+}

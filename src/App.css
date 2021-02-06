@@ -5,7 +5,32 @@
   display: flex;
   align-items: center;
   font-weight: 800;
-  color: #06B6D4;
+  color: #06b6d4;
   background-color: white;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.06);
+}
+
+.Container {
+  display: flex;
+}
+
+.CardDetailsContent {
+  background: white;
+  padding: 30px;
+  margin: 20px;
+  min-width: 60%;
+  border-radius: 8px;
+}
+
+.ButtonContainer {
+  display: flex;
+  margin-bottom: 15px;
+  justify-content: flex-end;
+}
+
+.ButtonClose {
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #d1d5d8;
+  border-radius: 8px;
 }

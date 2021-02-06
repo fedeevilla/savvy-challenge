@@ -1,5 +1,6 @@
 .CardsList {
   margin: 20px;
+  width: 100%;
 }
 
 .CardsList__loadingPlaceholder {

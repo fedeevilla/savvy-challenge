@@ -1,3 +1,7 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c66d7e12-3de7-428a-a164-67870fcaec0d/deploy-status)](https://app.netlify.com/sites/savvy-challenge/deploys)
+
+### Demo https://savvy-challenge.netlify.app/
+
 # Instructions
 
 ## Download
@@ -49,7 +53,7 @@ Please complete the following steps. Details for each step are included below:
 2. Add a search input to filter transactions
 
    - Transactions should be displayed if the `transaction.label` fully or partially matches the text input
-   - Sample: [![Watch the video](https://res.cloudinary.com/dml0ec1xe/video/upload/v1612625058/n5moxkhfeqojybqx5x4a.png)](https://res.cloudinary.com/dml0ec1xe/video/upload/v1612625058/n5moxkhfeqojybqx5x4a.mp4)
+   - Video Sample: https://www.loom.com/share/cc72c19c6f14458f949eb723e3e2bfe0
 
 3. Add a way to disable a card. We don't have a design for this step yet, so you can decide what the UI will look like.
 
